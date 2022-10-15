@@ -12,3 +12,15 @@ if (inputValue === '') {
 
 
 //2. Crossing out an item from the list of items:
+
+function crossOut() {
+	li.toggleClass("strike");
+}
+// toggleClass is a manipulation
+
+li.on("dbclick", fuction crossOut() {
+	li.toggleClass("strike");
+})
+// equivalent to eventListener
+
+//3(i). Adding the delete button "X":
