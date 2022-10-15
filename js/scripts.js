@@ -17,7 +17,7 @@ function newItem() {
 	}
 	// toggleClass is a manipulation
 
-	li.on("dbclick", fuction crossOut() {
+	li.on("dbclick", function crossOut() {
 		li.toggleClass("strike");
 	})
 	// equivalent to eventListener
